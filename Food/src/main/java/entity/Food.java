@@ -34,10 +34,14 @@ public class Food extends Item  implements Serializable{
     @Override
     public String toString() {
         return "Food{" +
-
-                ", type=" + type +
+                "type=" + type +
                 ", preparationTime=" + preparationTime +
                 ", servingTime=" + servingTime +
+                ", id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", onSpecial=" + onSpecial +
                 '}';
     }
 }
