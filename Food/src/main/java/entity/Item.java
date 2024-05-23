@@ -31,6 +31,9 @@ public abstract class Item   implements Serializable {
     )
     protected Set<Ingredient> ingredients;
 
+    @Embedded
+    protected NewEntity newEntity;
+
 
     public Item() {
     }
